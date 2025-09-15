@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080;
 const userRoutes = require('./routes/users.js');
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+    origin: ['http://localhost:3000', 'http://127.0.0.1:3000','https://user-management-dashboard-taupe.vercel.app'],
     credentials: true
 }));
 
